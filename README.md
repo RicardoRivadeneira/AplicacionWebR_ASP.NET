@@ -34,20 +34,21 @@ El proyecto "Ricardox Page" se basa en la implementación de un sistema web inte
 
 4. **Conexión Base de Datos:** Dentro de SQL Server, crea una base de Datos, denominada `DBCRUDCORE`dentro de esta ingresa: 
 
+```sql
 use DBCRUDCORE;
 
 CREATE TABLE CARGO(
-IdCargo int primary key identity(1,1),
-Descripcion varchar(50)
+    IdCargo int primary key identity(1,1),
+    Descripcion varchar(50)
 )
 
 create table EMPLEADO(
-IdEmpleado int primary key identity(1,1),
-NombreCompleto varchar(60),
-Correo varchar(60),
-Telefono varchar(60),
-IdCargo int references CARGO(IdCargo)
---CONSTRAINT FK_Cargo FOREIGN KEY (IdCargo) REFERENCES CARGO(IdCargo)
+    IdEmpleado int primary key identity(1,1),
+    NombreCompleto varchar(60),
+    Correo varchar(60),
+    Telefono varchar(60),
+    IdCargo int references CARGO(IdCargo)
+    --CONSTRAINT FK_Cargo FOREIGN KEY (IdCargo) REFERENCES CARGO(IdCargo)
 )
 
 5. **Vuelve a tu Compilador Visual Studio:** Cambia el archivo `appsettings.json` en específico la tercera línea por tu UserId y tu Contraseña.
@@ -60,20 +61,21 @@ IdCargo int references CARGO(IdCargo)
 
 ## Evidencia de Funcionamiento de la Página
 
--Vista General de la Página
-<img src="Imagenes_Funcionamiento/Evidencia_Index.png" alt="Evidencia1" width="600"/>
+### Vista General de la Página
+<img src="Imagenes_Funcionamiento/Evidencia_Index.png" alt="Evidencia1" width="600"/><br>
 
--Vista Privacy de la Página
-<img src="Imagenes_Funcionamiento/Evidencia_Privacy.png" alt="Evidencia2" width="600"/>
+### Vista Privacy de la Página
+<img src="Imagenes_Funcionamiento/Evidencia_Privacy.png" alt="Evidencia2" width="600"/><br>
 
--Vista Editar del Dato
-<img src="Imagenes_Funcionamiento/Evidencia_Editar.png" alt="Evidencia3" width="600"/>
+### Vista Editar del Dato
+<img src="Imagenes_Funcionamiento/Evidencia_Editar.png" alt="Evidencia3" width="600"/><br>
 
--Uso de DBeaver para correr la Base SQL Server
-<img src="Imagenes_Funcionamiento/Evidencia_BD.png" alt="Evidencia4" width="600"/>
+### Uso de DBeaver para correr la Base SQL Server
+<img src="Imagenes_Funcionamiento/Evidencia_BD.png" alt="Evidencia4" width="600"/><br>
 
--Uso de Docker para ejecutar el puerto e imagen ISO de SQL Server
-<img src="Imagenes_Funcionamiento/Evidencia_UsoContenedor.png" alt="Evidencia5"/>
+### Uso de Docker para ejecutar el puerto e imagen ISO de SQL Server
+<img src="Imagenes_Funcionamiento/Evidencia_UsoContenedor.png" alt="Evidencia5"/><br>
+
 ## Autor
 
 - [Ricardo Rivadeneira](enlace-a-tu-perfil)
