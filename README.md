@@ -50,7 +50,7 @@ create table EMPLEADO(
     IdCargo int references CARGO(IdCargo)
     --CONSTRAINT FK_Cargo FOREIGN KEY (IdCargo) REFERENCES CARGO(IdCargo)
 )
-
+```
 5. **Vuelve a tu Compilador Visual Studio:** Cambia el archivo `appsettings.json` en específico la tercera línea por tu UserId y tu Contraseña.
 
 6. **Consola de Administración de Paquetes NuGet:** Si estás en Visual Studio, dirigete a la sección de arriba, busca el Fichero "Herramientas" dale clic, se desplegará algunas opciones, selecciona "Administrador de Paquetes NuGet", se desplegará más opciones, selecciona "Consola de Administración de Paquetes"
