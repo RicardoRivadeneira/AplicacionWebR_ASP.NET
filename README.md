@@ -58,6 +58,22 @@ IdCargo int references CARGO(IdCargo)
 
 8. **Corre el programa:** Con la terminal mostrando que no hubo errores, corre el programa, se abrirá una consola, no debes de cerrarla, al mismo tiempo se abrirá una ventana con dirección de Localhost, en ella podrás ver el contenido, además de poder ya interactuar con la página.
 
+## Evidencia de Funcionamiento de la Página
+
+-Vista General de la Página
+<img src="Imagenes_Funcionamiento/Evidencia_Index.png" alt="Evidencia1" width="600"/>
+
+-Vista Privacy de la Página
+<img src="Imagenes_Funcionamiento/Evidencia_Privacy.png" alt="Evidencia2" width="600"/>
+
+-Vista Editar del Dato
+<img src="Imagenes_Funcionamiento/Evidencia_Editar.png" alt="Evidencia3" width="600"/>
+
+-Uso de DBeaver para correr la Base SQL Server
+<img src="Imagenes_Funcionamiento/Evidencia_BD.png" alt="Evidencia4" width="600"/>
+
+-Uso de Docker para ejecutar el puerto e imagen ISO de SQL Server
+<img src="Imagenes_Funcionamiento/Evidencia_UsoContenedor.png" alt="Evidencia5"/>
 ## Autor
 
 - [Ricardo Rivadeneira](enlace-a-tu-perfil)
