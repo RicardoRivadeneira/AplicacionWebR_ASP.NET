@@ -55,9 +55,11 @@ create table EMPLEADO(
 
 6. **Consola de Administración de Paquetes NuGet:** Si estás en Visual Studio, dirigete a la sección de arriba, busca el Fichero "Herramientas" dale clic, se desplegará algunas opciones, selecciona "Administrador de Paquetes NuGet", se desplegará más opciones, selecciona "Consola de Administración de Paquetes"
 
-7. **Comando en la Terminal:** Una vez se abrá una terminal en la sección de abajo, coloca lo siguiente: `Scaffold-DbContext "Data Source=(local);Initial Catalog=DBCRUDCORE;user id=sa;pwd=claveSQL4" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force` recuerda cambiar por tu *user id* y tu *pwd*, dale ENTER
-
-8. **Corre el programa:** Con la terminal mostrando que no hubo errores, corre el programa, se abrirá una consola, no debes de cerrarla, al mismo tiempo se abrirá una ventana con dirección de Localhost, en ella podrás ver el contenido, además de poder ya interactuar con la página.
+7. **Comando en la Terminal:** Una vez se abrá una terminal en la sección de abajo, coloca lo siguiente:
+   ```sql
+   Scaffold-DbContext "Data Source=(local);Initial Catalog=DBCRUDCORE;user id=sa;pwd=claveSQL4" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force` recuerda cambiar por tu *user id* y tu *pwd*, dale ENTER
+   ```
+9. **Corre el programa:** Con la terminal mostrando que no hubo errores, corre el programa, se abrirá una consola, no debes de cerrarla, al mismo tiempo se abrirá una ventana con dirección de Localhost, en ella podrás ver el contenido, además de poder ya interactuar con la página.
 
 ## Evidencia de Funcionamiento de la Página
 
