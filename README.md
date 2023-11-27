@@ -30,16 +30,34 @@ El proyecto "Ricardox Page" se basa en la implementación de un sistema web inte
 
 2. **Configuración del Entorno:** Asegúrate de tener instalado .NET Core SDK y SQL Server para ejecutar y gestionar la base de datos.
 
-3. **Ejecución del Proyecto:** Utiliza Visual Studio o Visual Studio Code para abrir el proyecto y ejecútalo utilizando `dotnet run`.
+3. **Ejecución del Proyecto:** Utiliza Visual Studio o Visual Studio Code para abrir el proyecto, en específico el archivo `CRUDCORE.sln`.
 
-## Contribuciones
+4. **Conexión Base de Datos:** Dentro de SQL Server, crea una base de Datos, denominada `DBCRUDCORE`dentro de esta ingresa: 
 
-¡Las contribuciones son bienvenidas! Siéntete libre de hacer un fork de este repositorio, realizar cambios y enviar un pull request.
+use DBCRUDCORE;
+
+CREATE TABLE CARGO(
+IdCargo int primary key identity(1,1),
+Descripcion varchar(50)
+)
+
+create table EMPLEADO(
+IdEmpleado int primary key identity(1,1),
+NombreCompleto varchar(60),
+Correo varchar(60),
+Telefono varchar(60),
+IdCargo int references CARGO(IdCargo)
+--CONSTRAINT FK_Cargo FOREIGN KEY (IdCargo) REFERENCES CARGO(IdCargo)
+)
+
+5. **Vuelve a tu Compilador Visual Studio:** Cambia el archivo `appsettings.json` en específico la tercera línea por tu UserId y tu Contraseña.
+
+6. **Consola de Administración de Paquetes NuGet:** Si estás en Visual Studio, dirigete a la sección de arriba, busca el Fichero "Herramientas" dale clic, se desplegará algunas opciones, selecciona "Administrador de Paquetes NuGet", se desplegará más opciones, selecciona "Consola de Administración de Paquetes"
+
+7. **Comando en la Terminal:** Una vez se abrá una terminal en la sección de abajo, coloca lo siguiente: `Scaffold-DbContext "Data Source=(local);Initial Catalog=DBCRUDCORE;user id=sa;pwd=claveSQL4" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force` recuerda cambiar por tu *user id* y tu *pwd*, dale ENTER
+
+8. **Corre el programa:** Con la terminal mostrando que no hubo errores, corre el programa, se abrirá una consola, no debes de cerrarla, al mismo tiempo se abrirá una ventana con dirección de Localhost, en ella podrás ver el contenido, además de poder ya interactuar con la página.
 
 ## Autor
 
-- [Tu Nombre](enlace-a-tu-perfil) - Desarrollador Principal
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+- [Ricardo Rivadeneira](enlace-a-tu-perfil)
