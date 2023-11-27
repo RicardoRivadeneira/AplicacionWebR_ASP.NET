@@ -78,4 +78,4 @@ create table EMPLEADO(
 
 ## Autor
 
-- [Ricardo Rivadeneira](enlace-a-tu-perfil)
+- Ricardo Rivadeneira
