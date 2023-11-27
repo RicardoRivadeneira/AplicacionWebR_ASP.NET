@@ -1,0 +1,12 @@
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\bin\Debug\net6.0\Utilidad.deps.json
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\bin\Debug\net6.0\Utilidad.dll
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\bin\Debug\net6.0\Utilidad.pdb
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.csproj.AssemblyReference.cache
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.AssemblyInfoInputs.cache
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.AssemblyInfo.cs
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.dll
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\refint\Utilidad.dll
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\Utilidad.pdb
+C:\Users\DELL 1559\Downloads\066_ProyectoEFCrudNet6-master\Utilidad\obj\Debug\net6.0\ref\Utilidad.dll
